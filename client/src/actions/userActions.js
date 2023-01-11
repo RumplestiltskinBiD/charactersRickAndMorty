@@ -25,7 +25,7 @@ export const login = (email, password) => {
             })
             dispatch(setUser(response.data.user))
             localStorage.setItem('token', response.data.token)
-
+            await dispatch(userInfo())
             if (localStorage.getItem('checkbox')) {
                 localStorage.removeItem('token')
             }
@@ -44,8 +44,6 @@ export const auth = () => {
                         })
             dispatch(setUser(response.data.user))
             localStorage.setItem('token', response.data.token)
-            console.log(response.data.user)
-
         } catch (e) {
             localStorage.removeItem('token')
         }
