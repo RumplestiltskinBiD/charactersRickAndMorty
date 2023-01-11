@@ -1,0 +1,15 @@
+.linkStyle {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.linkStyle:hover {
+  color: lightblue;
+}
+
+.logout:hover {
+  color: lightblue;
+}
+
+/*# sourceMappingURL=navbarStyles.css.map */

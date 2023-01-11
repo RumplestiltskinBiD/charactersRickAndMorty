@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.inputs {
+    font-size: 20px;
+    color: #565656;
+    border: 1px solid #888888;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    background-color: #F2F6FA;
+    margin: 5px;
+    text-indent: 15px;
+}
+.inputs:hover {
+    background-color: #eaf1f6;
+    color: #565656;
+}
+
+.center {
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: 0 auto;
+    height: 93vh;
+}
+
+.input-button {
+    background-color: rgb(50, 116, 144);
+    margin-top: 20px;
+    color: white;
+    text-indent: 0;
+}
+
+.title-style {
+    font-size: 28px;
+}
+
+.checkbox {
+    margin-right: 175px;
+}
